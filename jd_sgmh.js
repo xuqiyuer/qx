@@ -30,6 +30,7 @@ let appId = '1EFRRxA' , homeDataFunPrefix = 'interact_template', collectScoreFun
 let lotteryResultFunPrefix = homeDataFunPrefix, browseTime = 6
 const inviteCodes = [
   'T0225KkcRh4Q9gLQdBLxlKQJcQCjVWmIaW5kRrbA@T0119rh3Rxsa9FYCjVWmIaW5kRrbA@T020vfRzQR0d8FHKJxj3kfcMCjVWmIaW5kRrbA@ T0225KkcR0ge_VXTdBz9lv8DcwCjVWmIaW5kRrbA',
+  'T0225KkcRh4Q9gLQdBLxlKQJcQCjVWmIaW5kRrbA@T0119rh3Rxsa9FYCjVWmIaW5kRrbA@T020vfRzQR0d8FHKJxj3kfcMCjVWmIaW5kRrbA@ T0225KkcR0ge_VXTdBz9lv8DcwCjVWmIaW5kRrbA',
   'T0225KkcRh4Q9gLQdBLxlKQJcQCjVWmIaW5kRrbA@T0119rh3Rxsa9FYCjVWmIaW5kRrbA@T020vfRzQR0d8FHKJxj3kfcMCjVWmIaW5kRrbA@ T0225KkcR0ge_VXTdBz9lv8DcwCjVWmIaW5kRrbA'
 ];
 const randomCount = $.isNode() ? 20 : 5;
