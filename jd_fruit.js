@@ -33,6 +33,7 @@ let shareCodes = [ // 这个列表填入你要助力的好友的shareCode
   'df235e3315ed4d61819485f7b58d5b34@795b31daf36748648367e2a216258613@7d4184da068445b1806e9dd968f7af22@3986660f1d274cc49e997edb4ada8dab@dd28c4a00e9d44debf662ff0c9741c76',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
   'df235e3315ed4d61819485f7b58d5b34@795b31daf36748648367e2a216258613@7d4184da068445b1806e9dd968f7af22@3986660f1d274cc49e997edb4ada8dab@dd28c4a00e9d44debf662ff0c9741c76',
+  'df235e3315ed4d61819485f7b58d5b34@795b31daf36748648367e2a216258613@7d4184da068445b1806e9dd968f7af22@3986660f1d274cc49e997edb4ada8dab@dd28c4a00e9d44debf662ff0c9741c76',
 ]
 let message = '', subTitle = '', option = {}, isFruitFinished = false;
 const retainWater = 100;//保留水滴大于多少g,默认100g;
