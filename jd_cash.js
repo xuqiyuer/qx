@@ -30,6 +30,7 @@ let helpAuthor = true;
 const randomCount = $.isNode() ? 20 : 5;
 const inviteCodes = [
   `eU9Yauy7ZaohpWbQyyAQ0w@IBI3be-2Y_k79mzWznMV@eU9Ya7q1bv0ipWjcyXsa0Q@eU9YHqjTJJ9mqxyAkSFo@a14za-mxZ_4`,
+  `eU9Yauy7ZaohpWbQyyAQ0w@IBI3be-2Y_k79mzWznMV@eU9Ya7q1bv0ipWjcyXsa0Q@eU9YHqjTJJ9mqxyAkSFo@a14za-mxZ_4`,
   `eU9Yauy7ZaohpWbQyyAQ0w@IBI3be-2Y_k79mzWznMV@eU9Ya7q1bv0ipWjcyXsa0Q@eU9YHqjTJJ9mqxyAkSFo@a14za-mxZ_4`
 ]
 if ($.isNode()) {
