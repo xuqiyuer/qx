@@ -34,9 +34,7 @@ let applyJdBean = 2000; //疯狂的JOY京豆兑换，目前最小值为2000京�
 let cookiesArr = [], cookie = '', message = '';
 const inviteCodes = [
   'onaj_4aC56rQwlCqM_8OCQ==@47E1KVUSleSrfc3eWGgXhA==@8MNl8FJ7R_EopaxNfvpDYqt9zd5YaBeE@iyW0dZbjDiOm0N0a_8tAaQ==@EUhmkIy2PEN95PrNqD9796t9zd5YaBeE',
-  'onaj_4aC56rQwlCqM_8OCQ==@47E1KVUSleSrfc3eWGgXhA==@8MNl8FJ7R_EopaxNfvpDYqt9zd5YaBeE@iyW0dZbjDiOm0N0a_8tAaQ==@EUhmkIy2PEN95PrNqD9796t9zd5YaBeE,
-  'onaj_4aC56rQwlCqM_8OCQ==@47E1KVUSleSrfc3eWGgXhA==@8MNl8FJ7R_EopaxNfvpDYqt9zd5YaBeE@iyW0dZbjDiOm0N0a_8tAaQ==@EUhmkIy2PEN95PrNqD9796t9zd5YaBeE'
-  '
+  'onaj_4aC56rQwlCqM_8OCQ==@47E1KVUSleSrfc3eWGgXhA==@8MNl8FJ7R_EopaxNfvpDYqt9zd5YaBeE@iyW0dZbjDiOm0N0a_8tAaQ==@EUhmkIy2PEN95PrNqD9796t9zd5YaBeE',
 ];
 const randomCount = $.isNode() ? 10 : 5;
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
