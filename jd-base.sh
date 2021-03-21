@@ -107,10 +107,10 @@ check_container_name() {
 
 #容器名称
 input_container_name() {
-    echo -n -e "\e[33m三.请输入要创建的Docker容器名称[默认为：j]->\e[0m"
+    echo -n -e "\e[33m三.请输入要创建的Docker容器名称[默认为：dj]->\e[0m"
     read container_name
     if [ -z "$container_name" ]; then
-        CONTAINER_NAME="j"
+        CONTAINER_NAME="dj"
     else
         CONTAINER_NAME=$container_name
     fi
@@ -143,7 +143,7 @@ docker run -dit \
     -v $CONFIG_PATH:/jd/config \
     -v $LOG_PATH:/jd/log \
     --name $CONTAINER_NAME \
-    --hostname j \
+    --hostname dj \
     -e ENABLE_HANGUP=true \
     -e ENABLE_WEB_PANEL=true \
     --restart always \
