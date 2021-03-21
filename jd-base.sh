@@ -150,7 +150,7 @@ docker run -dit \
     --network bridge \
     -p 3456:5678 \
     
-    shuye72/jd-base:gitee
+    $DOCKER_IMG_NAME:$TAG
 
 if [ $INSTALL_WATCH = true ]; then
     log "3.1.开始创建容器并执行"
