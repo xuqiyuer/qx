@@ -150,9 +150,6 @@ docker run -dit \
     --network bridge \
     --hostname j \
     --restart always \
-
-    --restart always \
-    --network host \
     $DOCKER_IMG_NAME:$TAG
 
 if [ $INSTALL_WATCH = true ]; then
