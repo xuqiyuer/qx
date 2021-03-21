@@ -140,17 +140,17 @@ fi
 
 log "3.开始创建容器并执行,若出现Unable to find image请耐心等待"
 docker run -dit \
-    -v $CONFIG_PATH:/jd/scripts \
     -v $CONFIG_PATH:/jd/config \
     -v $LOG_PATH:/jd/log \
-    -p 3456:5678 \
+    --name $CONTAINER_NAME \
+    --hostname j \
     -e ENABLE_HANGUP=true \
     -e ENABLE_WEB_PANEL=true \
-    --name $CONTAINER_NAME \
-    --network bridge \
-    --hostname j \
     --restart always \
-    $DOCKER_IMG_NAME:$TAG
+    --network bridge \
+    -p 3456:5678 \
+    
+    shuye72/jd-base
 
 if [ $INSTALL_WATCH = true ]; then
     log "3.1.开始创建容器并执行"
@@ -178,4 +178,4 @@ if [ ! -f "$CONFIG_PATH/config.sh" ]; then
 log "4.下面列出所有容器"
 docker ps
 
-log "5.安装已经完成。\n现在你可以访问设备的 ip:5678 用户名：admin  密码：shuye72  来添加cookie，和其他操作。感谢使用！"
+log "5.安装已经完成。\n现在你可以访问设备的 ip:3456 用户名：admin  密码：shuye72  来添加cookie，和其他操作。感谢使用！"
